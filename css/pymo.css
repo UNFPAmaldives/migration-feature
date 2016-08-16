@@ -1,0 +1,22 @@
+
+iframe {
+  height: 600px;
+  width: 100%;
+  margin-top: 20px;
+  z-index: 0; 
+}
+@media (max-width: 992px) {
+  #iframe {
+    height: 375px; }
+
+@media (max-width: 992px) {
+  #map-container2 {
+    height: 375px; }
+
+#map-container2 {
+  height: 600px;
+  width: 100%;
+  margin-top: 20px;
+  z-index: 0; }
+  #map-container2.leaflet-container.leaflet-fullscreen-on {
+    z-index: 99998 !important; }
